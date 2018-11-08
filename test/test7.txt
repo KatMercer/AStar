@@ -1,0 +1,10 @@
+5 3
+.....
+.*#o.
+.....
+
+Expected output:
+. + + + . 
+. * # o - 
+. . . - . 
+Path found with length 4

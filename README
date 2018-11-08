@@ -1,0 +1,13 @@
+To compile, run "make"
+
+To run, run "java AStar [option] <file> <arguments>"
+
+Options
+   -v   verbose - prints all steps of the search (NOT IMPLEMENTED)
+
+Arguments
+   manhattan OR m   use Manhattan distance for heuristic
+   euclidean OR e   use Euclidean distance for heuristic
+  
+Program prints a map of the final state, indicating visited spaces with '-' and
+final path with '*', as well as the path as a list of points and the length
